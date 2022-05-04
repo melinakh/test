@@ -1,0 +1,45 @@
+@import "../../assetes/colors/colors";
+main {
+border: 1px solid $black;
+margin: auto;
+margin-top: 45px;
+height: 50vh;
+width: 50%;
+
+}
+
+
+h1{
+    
+    text-align: center;
+    display: block;
+    margin: 50px 0 20px 0 ;
+
+}
+.admin-login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .admin-name{
+        width: 25%;
+        height: 4vh;
+    }
+    .admin-password{
+        width: 25%;
+        height: 4vh;
+        margin-bottom: 15px;
+    }
+ 
+}
+.button{
+    width: 25%;
+ 
+}
+ .link-to-site {
+        text-decoration: none;
+         color: $blue;
+         border:  1px solid rgb(193, 193, 233);
+         padding: 15px;
+         border-radius: 50px;
+         margin-right: 5px;
+       }

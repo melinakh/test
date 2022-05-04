@@ -1,0 +1,17 @@
+.product-img {
+    width: 100%;
+}
+.main-card {
+    margin: 15px;
+    .link {
+        text-decoration: none;
+    }
+}
+.product-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+}
